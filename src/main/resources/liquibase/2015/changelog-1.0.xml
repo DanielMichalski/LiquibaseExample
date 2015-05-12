@@ -24,6 +24,10 @@
         <addColumn tableName="customers">
             <column name="phone" type="varchar(255)"></column>
         </addColumn>
+
+        <rollback>
+            <dropColumn tableName="customers" columnName="phone"/>
+        </rollback>
     </changeSet>
 
     <changeSet author="stelu" id="changelog-1.2">
