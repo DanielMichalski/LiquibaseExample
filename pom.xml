@@ -14,6 +14,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4-1201-jdbc41</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -24,8 +29,8 @@
                 <version>3.0.7</version>
                 <configuration>
                     <changeLogFile>src/main/resources/liquibase/master.xml</changeLogFile>
-                    <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://localhost:3306/test</url>
+                    <driver>${db.driver}</driver>
+                    <url>jdbc:${db.jdbc}://${db.host}:${db.port}/${db.name}</url>
                     <username></username>
                     <password></password>
                 </configuration>

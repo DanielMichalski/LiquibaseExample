@@ -6,5 +6,10 @@
       <schema-pattern>test.*</schema-pattern>
       <default-schemas>test.*</default-schemas>
     </data-source>
+    <data-source name="PostgreSQL - test@localhost" uuid="480e2e76-84d4-404c-83bd-978f4d290e58">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>test.*</schema-pattern>
+      <default-schemas>test.*</default-schemas>
+    </data-source>
   </component>
 </project>
