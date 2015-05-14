@@ -113,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.13544019">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -679,7 +679,7 @@
       <updated>1431454090004</updated>
       <workItem from="1431454093874" duration="4799000" />
       <workItem from="1431621725178" duration="21000" />
-      <workItem from="1431621777051" duration="2344000" />
+      <workItem from="1431621777051" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="Added liquibase stuff">
       <created>1431459100150</created>
@@ -705,11 +705,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431625531299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed readme">
+      <created>1431625685911</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1431625685911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7164000" />
+    <option name="totallyTimeSpent" value="7270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="6" />
@@ -758,7 +764,8 @@
     <MESSAGE value="Added dropColumn to changeset" />
     <MESSAGE value="Added 'generic' support for any db.&#10;Added postgres." />
     <MESSAGE value="Added readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added readme" />
+    <MESSAGE value="Fixed readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -958,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13544019">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
